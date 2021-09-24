@@ -1,4 +1,4 @@
-my_packages <- c("shiny","shinythemes","ggplot2","dplyr")
+my_packages <- c("shiny","shinythemes","ggplot2","dplyr","htmlwidgets","DT")
  install_if_missing <- function(p) {
  if(p %in% rownames(installed.packages())==FALSE){
  install.packages(p)}
